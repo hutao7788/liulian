@@ -37,11 +37,11 @@ noButton.addEventListener("click", function() {
     }
 
     // 图片变化（前 5 次变化）
-    if (clickCount === 1) mainImage.src = "img/1.gif"; // 震惊
-    if (clickCount === 2) mainImage.src = "img/2.gif"; // 思考
-    if (clickCount === 3) mainImage.src = "img/3.gif"; // 生气
-    if (clickCount === 4) mainImage.src = "img/6.gif"; // 哭
-    if (clickCount >= 5) mainImage.src = "img/4.gif"; // 之后一直是哭
+    if (clickCount === 1) mainImage.src = "1.gif"; // 震惊
+    if (clickCount === 2) mainImage.src = "2.gif"; // 思考
+    if (clickCount === 3) mainImage.src = "3.gif"; // 生气
+    if (clickCount === 4) mainImage.src = "6.gif"; // 哭
+    if (clickCount >= 5) mainImage.src = "4.gif"; // 之后一直是哭
 });
 
 // Yes 按钮点击后，进入表白成功页面
@@ -49,7 +49,7 @@ yesButton.addEventListener("click", function() {
     document.body.innerHTML = `
     <div class="yes - screen">
       <h1 class="yes - text">!!!喜欢你!! (＞_＜)❤°</h1>
-      <img src="img/5.gif" alt="拥抱" >
+      <img src="5.gif" alt="拥抱" >
     </div>
   `;
     document.body.style.overflow = "hidden";
